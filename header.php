@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notebook Webshop</title>
-    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <header>
@@ -24,7 +24,7 @@
                         <li><a href="index.php?oldal=kijelentkezes" class="menu-auth">Kijelentkezés (<?php echo htmlspecialchars($_SESSION['user_name']); ?>)</a></li>
                     <?php else: ?>
                         <li><a href="index.php?oldal=bejelentkezes" class="menu-auth">Bejelentkezés</a></li>
-                        <li><a href="index.php?oldal=regisztracio" class="menu-auth">Regisztráció</a></li>
+                        <li><a href="index.php?oldal=bejelentkezes" class="menu-auth">Regisztráció</a></li>
                     <?php endif; ?>
                 </ul>
             </nav>
