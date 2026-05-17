@@ -15,12 +15,12 @@
             <nav>
                 <ul>
                     <li><a href="index.php?oldal=fooldal">Főoldal</a></li>
-                    <li><a href="index.php?oldal=galeria">Galéria</a></li>
+                    <li><a href="index.php?oldal=galeria">Képek</a></li>
                     <li><a href="index.php?oldal=kapcsolat">Kapcsolat</a></li>
+                    <li><a href="index.php?oldal=crud_notebooks">CRUD</a></li>
                     
                     <?php if (isset($_SESSION['user_id'])): ?>
                         <li><a href="index.php?oldal=uzenetek">Üzenetek</a></li>
-                        <li><a href="index.php?oldal=crud_notebooks">Notebook Kezelő</a></li>
                         <li><a href="index.php?oldal=kijelentkezes" class="menu-auth">Kijelentkezés (<?php echo htmlspecialchars($_SESSION['user_name']); ?>)</a></li>
                     <?php else: ?>
                         <li><a href="index.php?oldal=bejelentkezes" class="menu-auth">Bejelentkezés</a></li>
