@@ -34,8 +34,8 @@
         <h2>Hol talál meg minket?</h2>
         <p>Személyes átvételi pontunk címe: 2112 Veresegyház, Fő út 1.</p>
         <div class="map-container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2685.912389652755!2d19.2818987!3d47.6472481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741cee9d0121d5d%3A0x400c4290c1e1c70!2sVeresegyh%C3%A1z!5e0!3m2!1shu!2shu!4v1715950000000!5m2!1shu!2shu" 
-                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2683.0560755913253!2d19.255959676949313!3d47.74149957119934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741c49b6b797cc7%3A0xcda6b08e705b7fc3!2sVeresegyh%C3%A1z%2C%20L%C3%A9vai%20u.%205%2C%202112!5e0!3m2!1shu!2shu!4v1715959000000!5m2!1shu!2shu" 
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </div>
     </section>
