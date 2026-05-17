@@ -2,8 +2,8 @@
 
 $host = 'localhost';
 $dbname = 'beadandoadatb';
-$user = 'root'; 
-$pass = '';     
+$user = 'beadandoadatb'; 
+$pass = 'WebProgBeadando2026Szem4';     
 
 try {
     $dbh = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $user, $pass, array(

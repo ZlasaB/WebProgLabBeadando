@@ -1,7 +1,7 @@
 <?php
 
 try {
-    $conn = new PDO('mysql:host=localhost;dbname=beadandoadatb;charset=utf8', 'root', '');
+    $conn = new PDO('mysql:host=localhost;dbname=beadandoadatb;charset=utf8', 'beadandoadatb', 'WebProgBeadando2026Szem4');
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
     die("Adatbázis kapcsolódási hiba: " . $e->getMessage());
