@@ -23,7 +23,7 @@ if (isset($_POST['kapcsolat_submit'])) {
 
 <main class="shop-container" style="margin-top:20px;">
     <h2>Kapcsolatfelvétel</h2>
-    <p>Írjon nekünk üzenetet! (HTML5 validáció kikapcsolva, JS + PHP ellenőrzés aktív)</p>
+    <p>Írjon nekünk üzenetet!</p>
     
     <?= $feedback ?>
     
